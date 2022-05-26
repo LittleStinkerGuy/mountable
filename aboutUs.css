@@ -34,7 +34,7 @@ html {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container::after, .rowa::after {
   content: "";
   clear: both;
   display: table;
