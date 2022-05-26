@@ -1,0 +1,59 @@
+*{
+font-family: sans-serif;
+}
+body{
+margin: 0;
+padding-top: 57.4333px;
+}
+header{
+text-align: center;
+padding: 5px;
+background-color: #2D647A;
+color: white;
+top: 0;
+width: 100%;
+position: absolute;
+right: 0px;
+}
+header a:link.headerLink, header a:visited.headerLink {
+color: #E6E2D1;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+margin: 15px;
+}
+img.headerLogo{
+width:  50px;
+float: left;
+margin-left: 20px;
+padding: 5px;
+}
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);}
+
+#header{
+background: rgba(1,90,156,0);
+moz-transition: all 1s ease-in-out;
+o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+webkit-transition: all 1s ease-in-out;
+}
+p.benifit{
+  display: block;
+  font-size: 1.17em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #6973BF;
+}
+p.benifit img{
+vertical-align: middle;
+margin-left: 10px;
+}
